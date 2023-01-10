@@ -1,4 +1,4 @@
-### CS_260
+### Startup
 
 #Push and Pull
 Github allows for easy version/source control across multiple devices and users
