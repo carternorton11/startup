@@ -1,6 +1,6 @@
-### Startup
+# Startup
 
-# Push and Pull
+### Push and Pull
 Github allows for easy version/source control across multiple devices and users 
 Visual Studio code has built in tools that interface with Github, allowing you to manage source control of your projects directly from your IDE! 
 To commit edits: simply press "CMD Enter" while highlighting whatever you have changed 
