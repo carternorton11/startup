@@ -8,7 +8,7 @@ To push edits: select the source control button on the left side, then enter a u
 
 If you have merge problems when pulling from GitHub, use the built in merge resolver to resolve the conflicting changes. 
 
-###Development and Production Environments
+### Development and Production Environments
 Development and Production environments are kept seperate 
 You can run a deployment script from a console window using something like:
 `./deploy.sh -k ~/prod.pem -h yourdomain.click -s simon`
