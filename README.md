@@ -12,6 +12,7 @@ information like approach distance, aspect, and vertical feet.
 Secure login with HTTPS <br>
 Propose tour dates with a selected group of friends <br>
 Nominate locations for a particular tour date <br>
+Vote on tour locations ,<br>
 Save tours to a personal library <br>
 Track tours completed <br>
 Create bucket list of runs to complete in the future <br>
