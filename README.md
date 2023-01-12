@@ -10,13 +10,8 @@ information like approach distance, aspect, and vertical feet.
 
 ### Key Features
 Secure login with HTTPS <br>
-
-Propose tour dates with a selected group of friends
-
-Nominate locations for a particular tour date
-
-Save tours to a personal library
-
-Track tours completed
-
-Create bucket list of runs to complete in the future
+Propose tour dates with a selected group of friends <br>
+Nominate locations for a particular tour date <br>
+Save tours to a personal library <br>
+Track tours completed <br>
+Create bucket list of runs to complete in the future <br>
