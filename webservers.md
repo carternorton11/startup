@@ -12,3 +12,6 @@ Routers direct information to and from specific IP addresses
 Today, most programming languages can interface with HTTP
 
 Gateways are often used to sort incoming HTTP information to different services<img width="612" alt="Screen Shot 2023-01-17 at 9 43 21 AM" src="https://user-images.githubusercontent.com/99043737/212959370-ffe9756f-35dc-4993-9ce9-1ca2cb042641.png">
+
+My public IP address: 3.21.83.52
+ssh -i ~/Desktop/AWS_KeyPairs/production.pem  ubuntu@3.21.83.52
