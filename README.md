@@ -31,3 +31,7 @@ Vote on tour locations,<br>
 Save tours to a personal library<br>
 Track tours completed and summary statistics (distance, time, and areas skied)<br>
 Create bucket list of runs to complete in the future <br>
+
+## Zach Notes
+
+I was informed that we should both be keeping track of "things we learned" in the README. So this space is for the stuff I learn starting now. Notes from before are in my startup repository (deprecated).
