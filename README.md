@@ -74,7 +74,21 @@ HTML files : serves up these files when requested
 
 #### HTTPS
 HTTPS is encryptions with the TLS protocol <br>
-Web Certificates: 
+Web Certificates: validity of a site can be confirmed by browser <br>
+Let's Encrypt: service that can validate any secure certificate <br>
+In order to enable HTTPS, access UBUNTU, and update caddyfile from a specific port to all requests to domain name
+
+### HTML
+HTML provides framework, CSS provides style, javascript is functionality <br>
+#### Elements and Tags
+Tags are delimited by arrows, and can enclose elements
+
+#### Attributes
+Describe the specific details of the element (id, class, etc)
+ 
+#### Hyperlinks
+Anchored with an "a", and contain a reference href to a hyperlink
+
 
 
 
