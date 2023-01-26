@@ -1,3 +1,4 @@
+# README - Carter Norton & Zach Everton
 ## Carter's Notes
 
 ### Push and Pull
@@ -41,7 +42,7 @@ Domain name in browser -> browser checks cache -> DNS server checks cache of nam
 TTL: time an IP address for an address is kept before being cleared out of caches
 
 
-# Tour Pal
+## Tour Pal
 
 My friends and I have often struggled to decide where to go backcountry skiing. With hundreds of options on the Wasatch Front,
 we rarely start with the same ideas about where to go, and we have to go through a messy process of explaining our ideas and 
