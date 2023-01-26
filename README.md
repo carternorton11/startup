@@ -24,6 +24,25 @@ Domain names are converted to IP address via the Domain Name System (DNS)
 'trace route' console utility allows a machine to see how information travels to another IP
 
 Routers direct information to and from specific IP addresses
+### Tour Pal
+
+My friends and I have often struggled to decide where to go backcountry skiing. With hundreds of options on the Wasatch Front,
+we rarely start with the same ideas about where to go, and we have to go through a messy process of explaining our ideas and 
+justifying our choice. With TourPal, friends can pick a date to go skiing, and each can nominate locations, entering in key 
+information like approach distance, aspect, and vertical feet. An hour of negotiation in a group chat is reduced to a few minutes on TourPal.
+
+<img width="546" alt="Screen Shot 2023-01-12 at 8 17 29 AM" src="https://user-images.githubusercontent.com/99043737/212110064-4e6749bb-4529-4b4d-9760-6db3d5296212.png">
+
+![Test lol](yourTours.png?raw=true "\"Your Tours\" Page")
+
+#### Key Features
+Secure login with HTTPS <br>
+Propose tour dates with a selected group of friends <br>
+Nominate locations for a particular tour date <br>
+Vote on tour locations,<br>
+Save tours to a personal library<br>
+Track tours completed and summary statistics (distance, time, and areas skied)<br>
+Create bucket list of runs to complete in the future <br>
 
 #### Web Servers
 Today, most programming languages can interface with HTTP
@@ -41,27 +60,23 @@ Domain name in browser -> browser checks cache -> DNS server checks cache of nam
 
 TTL: time an IP address for an address is kept before being cleared out of caches
 
+#### Route 53
+DNS records allow a domain name to direct to a given IP address
 
-## Tour Pal
+#### Caddy 
+Caddy responds to incoming HTTP requests, and either responds or routes request (gateway or reverse proxy)
 
-My friends and I have often struggled to decide where to go backcountry skiing. With hundreds of options on the Wasatch Front,
-we rarely start with the same ideas about where to go, and we have to go through a messy process of explaining our ideas and 
-justifying our choice. With TourPal, friends can pick a date to go skiing, and each can nominate locations, entering in key 
-information like approach distance, aspect, and vertical feet. An hour of negotiation in a group chat is reduced to a few minutes on TourPal.
+![image](https://user-images.githubusercontent.com/99043737/214905680-0ea338bc-aaf7-419b-a8e6-d829b4883537.png)
 
-<img width="546" alt="Screen Shot 2023-01-12 at 8 17 29 AM" src="https://user-images.githubusercontent.com/99043737/212110064-4e6749bb-4529-4b4d-9760-6db3d5296212.png">
+##### Important Caddy Files
+Configuration file : definitions for routing HTTP requests<br>
+HTML files : serves up these files when requested
 
-![Test lol](yourTours.png?raw=true "\"Your Tours\" Page")
+#### HTTPS
+HTTPS is encryptions with the TLS protocol <br>
+Web Certificates: 
 
 
-### Key Features
-Secure login with HTTPS <br>
-Propose tour dates with a selected group of friends <br>
-Nominate locations for a particular tour date <br>
-Vote on tour locations,<br>
-Save tours to a personal library<br>
-Track tours completed and summary statistics (distance, time, and areas skied)<br>
-Create bucket list of runs to complete in the future <br>
 
 ## Zach Notes
 
