@@ -95,3 +95,11 @@ Anchored with an "a", and contain a reference href to a hyperlink
 ## Zach Notes
 
 I was informed that we should both be keeping track of "things we learned" in the README. So this space is for the stuff I learn starting now. Notes from before are in my startup repository (deprecated).
+
+### Domain names
+
+Multiple IP addresses can point to the same domain name <br>
+Domain name is simply a text string that follows a naming convention and is listed in a domain name registry <br>
+Domain names have a root domain, and may have one or more possible subdomain prefixes. the subdomain is listed before the root domain in the domain name. The last part (like .com, .gov, .net, etc) is called the top level domain. <br>
+Use `whois` to find out more about the domain name. <br>
+DNS holds records for addreses and canonical names. (A and CNAME). An A record points from a domain name to an IP address. A CNAME record maps one domain name to another.
