@@ -82,17 +82,24 @@ In order to enable HTTPS, access UBUNTU, and update caddyfile from a specific po
 HTML provides framework, CSS provides style, javascript is functionality <br>
 
 #### Basics
-**Elements and Tags** Tags are delimited by arrows, and can enclose elements <br>
-**Attributes** Describe the specific details of the element (id, class, etc) <br>
-**Hyperlinks** Anchored with an "a", and contain a reference href to a hyperlink <br>
+Elements and Tags: Tags are delimited by arrows, and can enclose elements <br>
+Attributes: Describe the specific details of the element (id, class, etc) <br>
+Hyperlinks: Anchored with an "a", and contain a reference href to a hyperlink <br>
 
 #### Structure
 Common elements: body, header, footer, main, section, table, div, and span <br>
 #### Input
 'Form' is container for input, that can be used to submit information <br>
 Input can be categorized into various forms (radio, url, password), each delineated by the `type` attribute
-
-
+#### Media
+Media tags all take an absolute or relative URL as an attribute <br>
+`SVG` and `Canvas` allow for creation of graphics inline <br>
+```
+<img
+  alt="mountain landscape"
+  src="https://images.pexels.com/photos/164170/pexels-photo-164170.jpeg"
+/>
+```
 
 
 ## Zach Notes
