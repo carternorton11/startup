@@ -89,6 +89,10 @@ Describe the specific details of the element (id, class, etc)
 #### Hyperlinks
 Anchored with an "a", and contain a reference href to a hyperlink
 
+#### Input
+'Form' is container for input, that can be used to submit information <br>
+Input can be categorized into various forms (radio, url, password), each delineated by the "type" attribute
+
 
 
 
