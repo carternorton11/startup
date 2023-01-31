@@ -80,15 +80,14 @@ In order to enable HTTPS, access UBUNTU, and update caddyfile from a specific po
 
 ### HTML
 HTML provides framework, CSS provides style, javascript is functionality <br>
-#### Elements and Tags
-Tags are delimited by arrows, and can enclose elements
 
-#### Attributes
-Describe the specific details of the element (id, class, etc)
- 
-#### Hyperlinks
-Anchored with an "a", and contain a reference href to a hyperlink
+#### Basics
+**Elements and Tags** Tags are delimited by arrows, and can enclose elements <br>
+**Attributes** Describe the specific details of the element (id, class, etc) <br>
+**Hyperlinks** Anchored with an "a", and contain a reference href to a hyperlink <br>
 
+#### Structure
+Common elements: body, header, footer, main, section, table, div, and span <br>
 #### Input
 'Form' is container for input, that can be used to submit information <br>
 Input can be categorized into various forms (radio, url, password), each delineated by the `type` attribute
