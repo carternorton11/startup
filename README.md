@@ -101,6 +101,9 @@ Media tags all take an absolute or relative URL as an attribute <br>
 />
 ```
 
+#### To deploy changes to HTML
+bash deployWebsite.sh -k ~/Desktop/AWS_KeyPairs/production.pem -h tourpal.click
+
 
 ## Zach Notes
 
