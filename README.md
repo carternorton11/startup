@@ -116,7 +116,10 @@ Domain name is simply a text string that follows a naming convention and is list
 Domain names have a root domain, and may have one or more possible subdomain prefixes. the subdomain is listed before the root domain in the domain name. The last part (like .com, .gov, .net, etc) is called the top level domain. <br>
 Use `whois` to find out more about the domain name. <br>
 DNS holds records for addreses and canonical names. (A and CNAME). An A record points from a domain name to an IP address. A CNAME record maps one domain name to another.
-to to
+
+#### Logging into AWS instance thru ssh:
+ssh -i ./key ubuntu@$skelect.click 
+
 #### Simon notes
 - forgot how to use the fine access token with Github but I made another one and it seems to work. Might end up making another command to do that instead.
 - Lots of interesting stuff with the html page. Wasn't really sure how much to change so mostly made it the same. Flipped the colors around for fun but that's about it
