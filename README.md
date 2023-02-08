@@ -118,7 +118,7 @@ Use `whois` to find out more about the domain name. <br>
 DNS holds records for addreses and canonical names. (A and CNAME). An A record points from a domain name to an IP address. A CNAME record maps one domain name to another.
 
 #### Logging into AWS instance thru ssh:
-ssh -i ./key ubuntu@$skelect.click 
+ssh -i ./key ubuntu@skelect.click 
 
 #### Simon notes
 - forgot how to use the fine access token with Github but I made another one and it seems to work. Might end up making another command to do that instead.
