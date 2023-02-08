@@ -104,6 +104,15 @@ Media tags all take an absolute or relative URL as an attribute <br>
 #### To deploy changes to HTML
 bash deployWebsite.sh -k ~/Desktop/AWS_KeyPairs/production.pem -h tourpal.click
 
+### CSS
+#### Commands
+<div> labels an instance to be styled in CSS <br>
+classes: can have multiple instances with particular labels <br>
+display: block, inline, flex, grid <br>
+meta tag: ensures page will not be scaled <br>
+float: allows an object to float around inline objects <br>
+@media (orientation: portrait) allow <br>
+
 
 ## Zach Notes
 
