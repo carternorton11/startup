@@ -135,5 +135,5 @@ ssh -i ./key ubuntu@skelect.click
 - Even though I pretty much copied everything line for line, the favicon wasn't showing up on the tab for my Simon page. Not sure what caused that to happen
 
 #### HTML vs CSS
-HTML elements are usually of the form &gth&lt </h> or some variant. Formatting information is put within the first <h> part and content is put between the two parts.
+HTML elements are usually of the form < h > < /h > or some variant. Formatting information is put within the first <h> part and content is put between the two parts.
 CSS elements are ususally of the form h { z-index: 5;} where each attribute is a attribute-value pair is connected by colons and separeated by semicolons
