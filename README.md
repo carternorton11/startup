@@ -133,3 +133,7 @@ ssh -i ./key ubuntu@skelect.click
 - forgot how to use the fine access token with Github but I made another one and it seems to work. Might end up making another command to do that instead.
 - Lots of interesting stuff with the html page. Wasn't really sure how much to change so mostly made it the same. Flipped the colors around for fun but that's about it
 - Even though I pretty much copied everything line for line, the favicon wasn't showing up on the tab for my Simon page. Not sure what caused that to happen
+
+#### HTML vs CSS
+HTML elements are usually of the form <h> </h> or some variant. Formatting information is put within the first <h> part and content is put between the two parts.
+CSS elements are ususally of the form h { z-index: 5;} where each attribute is a attribute-value pair is connected by colons and separeated by semicolons
