@@ -9,11 +9,14 @@ header {
 }
 
 main {
-    flex: 1 calc(100vh - 110px);
-    display: flex;
-    flex-direction: row;
+
     align-items: center;
     justify-content: space-around;
+}
+main.login {
+    display: flex;
+        flex-direction: row;
+    flex: 1 calc(100vh - 110px);
 }
 section{
     flex: 1;
@@ -22,6 +25,12 @@ section{
     flex: 0 300px;
     display: flex;
     background: white;
+}
+.skipic{
+    flex: 1;
+    background-image: url("IMG_2748.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 footer {
