@@ -115,6 +115,13 @@ float: allows an object to float around inline objects <br>
 
 ### JavaScript
 #### Introduction
+Use the <script> element or "src" to insert code into a javascript file <br>
+Attributes can automatically create "event listeners" to look for an event to respond to <br>
+Variables: Use either "let" and "const" to declare changeable or null variables <br>
+Primitives: Null, Undefined, Boolean, Number, BigInt, String, Symbol <br>
+Types: Object, Function, Data, Array, Map, JSON <br>
+Operators: +, -, *, /, and === (strict equality of type) <br>
+Funky Functions: "for of": iterates over an iterable's property values (const val of array) <br>
 
 
 
