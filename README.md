@@ -113,6 +113,10 @@ meta tag: ensures page will not be scaled <br>
 float: allows an object to float around inline objects <br>
 @media (orientation: portrait) allow <br>
 
+### JavaScript
+#### Introduction
+
+
 
 ## Zach Notes
 
