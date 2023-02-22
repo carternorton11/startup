@@ -128,6 +128,10 @@ JavaScript Object Notation: easily convertable to JS objects <br>
 Keys are always strings, values must be valid JSON data type <br>
 'JSON.parse converts to JSON, 'JSON.stringify' converts from JSON <br>
 
+#### Other Functions
+'rest' is a placeholder parameter than accepts any number of parameters and converts them to an array <br>
+'spread' does the opposite, and expands an array to fill all parameters <br>
+
 
 ## Zach Notes
 
