@@ -123,6 +123,10 @@ Types: Object, Function, Data, Array, Map, JSON <br>
 Operators: +, -, *, /, and === (strict equality of type) <br>
 Funky Functions: "for of": iterates over an iterable's property values (const val of array) <br>
 
+#### JSON
+JavaScript Object Notation: easily convertable to JS objects <br>
+Keys are always strings, values must be valid JSON data type <br>
+'JSON.parse converts to JSON, 'JSON.stringify' converts from JSON <br>
 
 
 ## Zach Notes
