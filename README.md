@@ -113,6 +113,25 @@ meta tag: ensures page will not be scaled <br>
 float: allows an object to float around inline objects <br>
 @media (orientation: portrait) allow <br>
 
+### JavaScript
+#### Introduction
+Use the <script> element or "src" to insert code into a javascript file <br>
+Attributes can automatically create "event listeners" to look for an event to respond to <br>
+Variables: Use either "let" and "const" to declare changeable or null variables <br>
+Primitives: Null, Undefined, Boolean, Number, BigInt, String, Symbol <br>
+Types: Object, Function, Data, Array, Map, JSON <br>
+Operators: +, -, *, /, and === (strict equality of type) <br>
+Funky Functions: "for of": iterates over an iterable's property values (const val of array) <br>
+
+#### JSON
+JavaScript Object Notation: easily convertable to JS objects <br>
+Keys are always strings, values must be valid JSON data type <br>
+'JSON.parse converts to JSON, 'JSON.stringify' converts from JSON <br>
+
+#### Other Functions
+'rest' is a placeholder parameter than accepts any number of parameters and converts them to an array <br>
+'spread' does the opposite, and expands an array to fill all parameters <br>
+
 
 ## Zach Notes
 
