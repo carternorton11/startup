@@ -15,7 +15,7 @@ main {
 }
 main.login {
     display: flex;
-        flex-direction: row;
+    flex-direction: row;
     flex: 1 calc(100vh - 110px);
 }
 
@@ -148,21 +148,6 @@ footer a {
     margin-bottom: 0.5em;
 }
 
-.score {
-    position: absolute;
-    text-align: center;
-    font-size: 20px;
-    font-family: monospace;
-    font-weight: bold;
-    color: red;
-    cursor: default;
-    width: 50px;
-    height: 30px;
-    border-radius: 10px;
-    border: solid thin rgb(117, 0, 0);
-    background-color: #300;
-}
-
 .center {
     top: 50%;
     left: 50%;
@@ -179,4 +164,8 @@ footer a {
     main {
         flex: 1 100vh;
     }
+}
+
+.friend {
+    border-style: solid;
 }
