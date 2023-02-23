@@ -18,6 +18,14 @@ main.login {
         flex-direction: row;
     flex: 1 calc(100vh - 110px);
 }
+
+main.routes{
+    vertical-align: top;
+    margin: 25px;
+    display: flex;
+        flex-direction: row;
+    flex: 1 calc(100vh - 110px);
+}
 section{
     flex: 1;
 }
@@ -28,7 +36,7 @@ section{
 }
 .skipic{
     flex: 1;
-    background-image: url("IMG_2748.jpg");
+    background-image: url("IMG_2748.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
 }
