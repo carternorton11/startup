@@ -16,6 +16,13 @@ main {
   justify-content: space-around;
 }
 
+main.plans{
+  flex: 1 calc(100vh - 110px);
+  display: inline;
+  justify-content: space-around;
+
+}
+
 .login {
   background-image: url('IMG_2748.jpeg');
   background-size: cover;
