@@ -156,3 +156,11 @@ ssh -i ./key ubuntu@skelect.click
 #### HTML vs CSS
 HTML elements are usually of the form < h > < /h > or some variant. Formatting information is put within the first <h> part and content is put between the two parts.
 CSS elements are ususally of the form h { z-index: 5;} where each attribute is a attribute-value pair is connected by colons and separeated by semicolons
+
+#### More CSS
+CSS attributes are inherited top-down but priority is given to the lowest level of inheritance, just like with other classes. However, a higher attribute may override a lower one if the user adds !important
+@media tags help to change the layout of the webpage as the screen size changes.
+Many CSS attributes change how the elemtnt's children are arranged but don't really change the element itself. If it doesn't seem like any attributes are fixing and allignemtn issue, try changing attributes in the parent class instead.
+
+#### Javascript
+Many different types of loops! For, while (similar to the ones we covered in 235), plus a do {} while() loop and two special for loops: for (x in iterable){} will loop through indices or keys for the iterable. for(y of iterable){} loops through the values in the iterable.
