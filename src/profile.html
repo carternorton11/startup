@@ -13,7 +13,7 @@
             crossorigin="anonymous"
     />
 </head>
-<body class="bg-dark text-light" style="margin: 25px 12.5%;">
+<body class="bg-dark text-light">
 <header class="container-fluid">
     <nav class="navbar fixed-top navbar-dark">
         <a class="navbar-brand" href="#">TourPal<sup>&reg;</sup></a>
@@ -33,32 +33,59 @@
         </menu>
     </nav>
 </header>
-<main style = "display: flex; flex-direction: row;">
-    <section style = "align-items: top; vertical-align: top; margin: 25px;">
-        <img src="IMG_2748.jpeg" style = "width: 230px; height: 230px; border-radius: 50%; object-fit: cover;">
-        </br>
-        <h3>Zachary Everton</h3>
-        </br>
-        <p>:)</p>
+<main class = "profile">
+    <section class ="top">
+        <img src="IMG_2748.jpeg" style = "width: min(75%, 150px); border-radius: 50%; object-fit: cover;">
+        <div style="padding: 25px;">
+            <h1>Zachary Everton</h1>
+        </div>
     </section>
-    <section>
-        <h1>Friends</h1>
-        <div class = "friend">
-            <h4>
-                Friend 1
-            </h4>
-        </div>
-        <div class = "friend">
-            <h4>
-                Friend 1
-            </h4>
-        </div>
-        <div class = "friend">
-            <h4>
-                Friend 1
-            </h4>
-        </div>
+    <section class = "bottom">
+        <section>
+            <h3>Profile</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <section>
+            <h3>Friends <a href="#" class="btn btn-primary">Add</a><a href="#" class="btn btn-danger"> Delete</a></h3>
+            <div class = "friend">
+                <h5>
+                    Friend 3
+                </h5>
+            </div>
+            <div class = "friend">
+                <h5>
+                    Friend 3
+                </h5>
+            </div>
+            <div class = "friend">
+                <h5>
+                    Friend 3
+                </h5>
+            </div>
+            <h3>Requests</h3>
+            <div class = "friend">
+                <h5>
+                    Person 1 <a href="#" class="btn btn-primary"> Accept</a>
+                </h5>
+            </div>
+            <div class = "friend">
+                <h5>
+                    Person 2 <a href="#" class="btn btn-primary"> Accept</a>
+                </h5>
+            </div>
+            <div class = "friend">
+                <h5>
+                    Person 3 <a href="#" class="btn btn-primary"> Accept</a>
+                </h5>
+            </div>
+        </section>
     </section>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<footer class="container-fluid">
+    <div class="container-fluid">
+        <p>Made by Carter Norton and Zachary Everton <a class="text-reset" href=link("https://github.com/carternorton11/startup")>Github</a></p>
+    </div>
+</footer>
 </body>
+</html>
