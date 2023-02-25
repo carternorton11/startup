@@ -164,5 +164,17 @@ Many CSS attributes change how the elemtnt's children are arranged but don't rea
 
 #### Javascript
 Many different types of loops! For, while (similar to the ones we covered in 235), plus a do {} while() loop and two special for loops: for (x in iterable){} will loop through indices or keys for the iterable. for(y of iterable){} loops through the values in the iterable.
-</b>
+</br>
 Arrow functions: basically js version of lambda functions. (input) => {code; return output}
+</br>
+Objects and classes: An object is really just a set of key-value pairs, the value is either a literal or a function. Objects can be made without a class, or with a class. can be defined as simply as: a = {
+first: 1;
+second: 2;
+}
+a function that returns an object is called a constructor, even if it doesn't have any special name or whatever. If you define using a class, define a constructor() function inside that gets called when an object is made
+create an object from a class using the following syntax: </br>
+a = new class(var1,var2,var3);
+</br>
+if a class is inherited, define it: class couch extends furniture {}
+</br>
+reference parent functions using "super()"
