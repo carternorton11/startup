@@ -164,3 +164,5 @@ Many CSS attributes change how the elemtnt's children are arranged but don't rea
 
 #### Javascript
 Many different types of loops! For, while (similar to the ones we covered in 235), plus a do {} while() loop and two special for loops: for (x in iterable){} will loop through indices or keys for the iterable. for(y of iterable){} loops through the values in the iterable.
+</b>
+Arrow functions: basically js version of lambda functions. (input) => {code; return output}
