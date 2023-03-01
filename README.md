@@ -122,6 +122,7 @@ Primitives: Null, Undefined, Boolean, Number, BigInt, String, Symbol <br>
 Types: Object, Function, Data, Array, Map, JSON <br>
 Operators: +, -, *, /, and === (strict equality of type) <br>
 Funky Functions: "for of": iterates over an iterable's property values (const val of array) <br>
+Arrow functions: basically js version of lambda functions. (input) => {code; return output} *stolen from Zach <br>
 
 #### JSON
 JavaScript Object Notation: easily convertable to JS objects <br>
@@ -131,6 +132,14 @@ Keys are always strings, values must be valid JSON data type <br>
 #### Other Functions
 'rest' is a placeholder parameter than accepts any number of parameters and converts them to an array <br>
 'spread' does the opposite, and expands an array to fill all parameters <br>
+
+#### Scope, Modules, and DOM
+Global > Module > Function > Block <br>
+'Var' is always global. Const and Let can be used like typical constant and changeable variables <br>
+'This' can refer to an object, function, or globally, depending on where it is referenced <br>
+Modules = packages <br>
+DOM is essentially a way for the code to directly interface with HTML objects <br>
+Event Listeners allow your code to listen to clipboard, focus, keyboard, mouse, etc. <br>
 
 
 ## Zach Notes
