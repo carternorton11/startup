@@ -141,6 +141,10 @@ Modules = packages <br>
 DOM is essentially a way for the code to directly interface with HTML objects <br>
 Event Listeners allow your code to listen to clipboard, focus, keyboard, mouse, etc. <br>
 
+#### Promises
+Promises allow code to be completed asynchronously. <br>
+then,catch,finally: .then((result) => ) <br>
+
 
 ## Zach Notes
 
