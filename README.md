@@ -141,9 +141,12 @@ Modules = packages <br>
 DOM is essentially a way for the code to directly interface with HTML objects <br>
 Event Listeners allow your code to listen to clipboard, focus, keyboard, mouse, etc. <br>
 
-#### Promises
+#### Promises and Async/Await
 Promises allow code to be completed asynchronously. <br>
 then,catch,finally: .then((result) => ) <br>
+Await expression blocks until the promise state is 'fulfilled', or throws an exception if the state is rejected <br>
+  Ex: console.log(await cow()); will not return until cow is resolved <br>
+Async allows await to be called somewhere besides the top level of javascript <br>
 
 
 ## Zach Notes
