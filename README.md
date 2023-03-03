@@ -179,6 +179,35 @@ the <A NAME=4 HREF=TheProject.html>web</A> grow and be even more useful...
 Same Origin Policy (SOP) forces Javascript to only make requests to a domain if it's the same as the one being viewed <br>
 Cross Origin Resource Sharing (CORS) allows domains to share their information <br>
 
+#### Service Design
+API's are also called endpoints. These are comparables with Handlers-Services <br>
+OpenAPI defines formatting for API's <br>
+Remote Procedure Calls (RPC): exposes service endpoints as function calls
+```POST /updateOrder HTTP/2
+{"id": 2197, "date": "20220505"}
+```
+Representational State Transfer (REST): 
+```PUT /order/2197 HTTP/2
+{"date": "20220505"}
+```
+GraphQL 
+```query {
+  getOrder(id: "2197") {
+    orders(filter: { date: { allofterms: "20220505" } }) {
+      store
+      description
+      orderedBy
+    }
+  }
+}
+```
+#### Node.js
+1. Create your project directory
+1. Initialize it for use with NPM by running `npm init -y`
+1. Make sure `.gitignore` file contains `node-modules`
+1. Install any desired packages with `npm install <package name here>`
+1. Add `require('<package name here>')` to your JavaScript code
+1. Run your code with `node main.js`
 
 ## Zach Notes
 
