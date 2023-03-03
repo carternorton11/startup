@@ -148,6 +148,37 @@ Await expression blocks until the promise state is 'fulfilled', or throws an exc
   Ex: console.log(await cow()); will not return until cow is resolved <br>
 Async allows await to be called somewhere besides the top level of javascript <br>
 
+### WebServices
+
+#### URL, Ports, HTTP
+Convention: <scheme>://<domain name>:<port>/<path>?<parameters>#<anchor> <br>
+Common Port Numbers: 20 (FTP) 22 (SSH) 53 (DNS) 443 (HTTPS) <br>
+Caddy is listening to 80,443 for requests. Startup must be on port 4000 <br>
+http://info.cern.ch/hypertext/WWW/Helping.html GET /hypertext/WWW/Helping.html <br>
+
+##### HTTP Request
+```http
+GET /hypertext/WWW/Helping.html HTTP/1.1
+Host: info.cern.ch
+Accept: text/html
+```
+##### HTTP Response
+```HTTP/1.1 200 OK
+Date: Tue, 06 Dec 2022 21:54:42 GMT
+Server: Apache
+Last-Modified: Thu, 29 Oct 1992 11:15:20 GMT
+ETag: "5f0-28f29422b8200"
+Accept-Ranges: bytes
+
+<TITLE>Helping -- /WWW</TITLE>
+<NEXTID 7>
+<H1>How can I help?</H1>There are lots of ways you can help if you are interested in seeing
+the <A NAME=4 HREF=TheProject.html>web</A> grow and be even more useful...
+```
+#### SOP & CORS
+Same Origin Policy (SOP) forces Javascript to only make requests to a domain if it's the same as the one being viewed <br>
+Cross Origin Resource Sharing (CORS) allows domains to share their information <br>
+
 
 ## Zach Notes
 
