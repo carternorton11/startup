@@ -254,3 +254,8 @@ a = new class(var1,var2,var3);
 if a class is inherited, define it: class couch extends furniture {}
 </br>
 reference parent functions using "super()"
+
+#### Async and Promises
+A promise is an OBJECT that represents the eventual completion or failure of an asynchronous operation. </br>
+Promise function looks like: </br>
+someFunction(regularInput).then(successReturn(), failureReturn()) </br>
