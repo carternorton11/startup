@@ -259,3 +259,8 @@ reference parent functions using "super()"
 A promise is an OBJECT that represents the eventual completion or failure of an asynchronous operation. </br>
 Promise function looks like: </br>
 someFunction(regularInput).then(successReturn(), failureReturn()) </br>
+  </br>
+  Two ways to do asynchronous expression, either a .then .cath chain or await with a try-catch block </br>
+  
+  </br>
+  await is a lot neater and looks nicer but you do need to remember to put either at the top level or within a function that has async in its definition. To use Async/await in a function, put "async" before the function name when declaring it (ie async function test(){}). Then within the function, whenever you do something that returns a promise, just say "await" before.
