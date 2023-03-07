@@ -117,7 +117,7 @@ Order: content -> padding -> border -> margin <br>
 flex: row is all content in one row, column is all content in one column <br>
 #### Input
 'Form' is container for input, that can be used to submit information <br>
-Input can be categorized into various forms (radio, url, password), each delineated by the `type` attribute
+Input can be categorized into various forms (radio, url, password), each delineated by the `type` attribute <br>
 Handling Input <br>
 	<form> input container <br>
 	<fieldset> labeled grouping <br>
