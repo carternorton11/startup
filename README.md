@@ -119,11 +119,11 @@ flex: row is all content in one row, column is all content in one column <br>
 'Form' is container for input, that can be used to submit information <br>
 Input can be categorized into various forms (radio, url, password), each delineated by the `type` attribute <br>
 Handling Input <br>
-	<form> input container <br>
-	<fieldset> labeled grouping <br>
-	<input> multiple types of input <br>
-	<select> selection dropdown <br>
-	<meter> display value with a known range <br>
+	form input container <br>
+	fieldset labeled grouping <br>
+	input multiple types of input <br>
+	select selection dropdown <br>
+	meter display value with a known range <br>
 	
 #### Media
 Media tags all take an absolute or relative URL as an attribute <br>
@@ -141,24 +141,26 @@ bash deployWebsite.sh -k ~/Desktop/AWS_KeyPairs/production.pem -h tourpal.click
 
 ### CSS
 #### Commands
-<div> labels an instance to be styled in CSS <br>
+div labels an instance to be styled in CSS <br>
 classes: can have multiple instances with particular labels <br>
 display: block, inline, flex, grid <br>
 meta tag: ensures page will not be scaled <br>
 float: allows an object to float around inline objects <br>
 @media (orientation: portrait) allow <br>
 CSS Selectors <br>
+	```
 	body section - any section that is a descendant of a body <br>
 	section > p - any p that is a direct child of a section <br>
 	p ~ div - any p that has a div sibling <br>
 	p + div - any p that has an adjacent div sibling <br>
+	```
 MDN Units <br>
   px: pixels, pt: points, em: multiplier of letter m in parents font, rem: multiplier of letter m in root, vw: % of viewpoint width, vh: % of view height <br> 
   
 
 ### JavaScript
 #### Introduction
-Use the <script> element or "src" to insert code into a javascript file <br>
+Use the script element or "src" to insert code into a javascript file <br>
 Attributes can automatically create "event listeners" to look for an event to respond to <br>
 Variables: Use either "let" and "const" to declare changeable or null variables <br>
 Primitives: Null, Undefined, Boolean, Number, BigInt, String, Symbol <br>
@@ -167,6 +169,7 @@ Operators: +, -, *, /, and === (strict equality of type) <br>
 Funky Functions: "for of": iterates over an iterable's property values (const val of array) <br>
 Arrow functions: basically js version of lambda functions. (input) => {code; return output} *stolen from Zach <br>
 Array Operations: sort : a.sort((a,b) => b-a) , for-of-loop: for (i of a.values()) {... }, new array: a.map(i => i+ ) <br>
+
 
 #### JSON
 JavaScript Object Notation: easily convertable to JS objects <br>
@@ -195,7 +198,7 @@ Async allows await to be called somewhere besides the top level of javascript <b
 ### WebServices
 
 #### URL, Ports, HTTP
-Convention: <scheme>://<domain name>:<port>/<path>?<parameters>#<anchor> <br>
+Convention: "scheme://domain name:port/path?parameters#anchor" <br>
 Common Port Numbers: 20 (FTP) 22 (SSH) 53 (DNS) 443 (HTTPS) <br>
 Caddy is listening to 80,443 for requests. Startup must be on port 4000 <br>
 http://info.cern.ch/hypertext/WWW/Helping.html GET /hypertext/WWW/Helping.html <br>
