@@ -15,6 +15,31 @@ The -k parameter provide the credential file necessary to access your production
 
 Basically, this automatically copies all your files into a new environment and sets them up to run.
 
+### A Crash Course in Bash (again)
+- **echo** - Output the parameters of the command
+- **rm** - Remove file(s)
+- **mv** - Move file(s)
+- **cp** - Copy files
+- **ls** - List files
+- **curl** - Command line client URL browser
+- **grep** - Regular expression search
+- **find** - Find files
+- **top** - View running processes with CPU and memory usage
+- **df** - View disk statistics
+- **cat** - Output the contents of a file
+- **less** - Interactively output the contents of a file
+- **wc** - Count the words in a file
+- **ps** - View the currently running processes
+- **kill** - Kill a currently running process
+- **sudo** - Execute a command as a super user (admin)
+- **ssh** - Create a secure shell on a remote computer
+- **scp** - Securely copy files to a remote computer
+- **history** - Show the history of commands
+- **ping** - Check if a website is up
+- **tracert** - Trace the connections to a website
+- **dig** - Show the DNS information for a domain
+- **man** - Look up a command in the manual
+
 ### Web Servers
 
 #### The Internet
@@ -88,9 +113,17 @@ Hyperlinks: Anchored with an "a", and contain a reference href to a hyperlink <b
 
 #### Structure
 Common elements: body, header, footer, main, section, table, div, and span <br>
+Order: content -> padding -> border -> margin <br>
+flex: row is all content in one row, column is all content in one column <br>
 #### Input
 'Form' is container for input, that can be used to submit information <br>
 Input can be categorized into various forms (radio, url, password), each delineated by the `type` attribute
+Handling Input <br>
+	<form> input container
+	<fieldset> labeled grouping
+	<input> multiple types of input 
+	<select> selection dropdown 
+	<meter> display value with a known range
 #### Media
 Media tags all take an absolute or relative URL as an attribute <br>
 `SVG` and `Canvas` allow for creation of graphics inline <br>
@@ -100,6 +133,7 @@ Media tags all take an absolute or relative URL as an attribute <br>
   src="https://images.pexels.com/photos/164170/pexels-photo-164170.jpeg"
 />
 ```
+To import font: @import url(fonts.google.{type of font}) <br>
 
 #### To deploy changes to HTML
 bash deployWebsite.sh -k ~/Desktop/AWS_KeyPairs/production.pem -h tourpal.click
@@ -112,6 +146,14 @@ display: block, inline, flex, grid <br>
 meta tag: ensures page will not be scaled <br>
 float: allows an object to float around inline objects <br>
 @media (orientation: portrait) allow <br>
+CSS Selectors <br>
+	body section - any section that is a descendant of a body
+	section > p - any p that is a direct child of a section
+	p ~ div - any p that has a div sibling 
+	p + div - any p that has an adjacent div sibling <br>
+MDN Units <br>
+  px: pixels, pt: points, em: multiplier of letter m in parents font, rem: multiplier of letter m in root, vw: % of viewpoint width, vh: % of view height 
+  
 
 ### JavaScript
 #### Introduction
@@ -123,10 +165,11 @@ Types: Object, Function, Data, Array, Map, JSON <br>
 Operators: +, -, *, /, and === (strict equality of type) <br>
 Funky Functions: "for of": iterates over an iterable's property values (const val of array) <br>
 Arrow functions: basically js version of lambda functions. (input) => {code; return output} *stolen from Zach <br>
+Array Operations: sort : a.sort((a,b) => b-a) , for-of-loop: for (i of a.values()) {... }, new array: a.map(i => i+ ) <br>
 
 #### JSON
 JavaScript Object Notation: easily convertable to JS objects <br>
-Keys are always strings, values must be valid JSON data type <br>
+Keys are always strings (with quotes), values must be valid JSON data type <br>
 'JSON.parse converts to JSON, 'JSON.stringify' converts from JSON <br>
 
 #### Other Functions
