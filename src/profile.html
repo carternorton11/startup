@@ -43,40 +43,20 @@
     <section class = "bottom">
         <section>
             <h3>Profile</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div id = "bioText" style="min-width: 100%">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#" class="btn btn-primary justify-content-end" onclick = "testUser.editBio()"> Edit </a>
+            </div>
         </section>
         <section>
             <h3>Friends <a href="#" class="btn btn-primary">Add</a><a href="#" class="btn btn-danger"> Delete</a></h3>
-            <div class = "friend">
-                <h5>
-                    Friend 3
-                </h5>
+            <div id="friendsList">
+
             </div>
-            <div class = "friend">
-                <h5>
-                    Friend 3
-                </h5>
-            </div>
-            <div class = "friend">
-                <h5>
-                    Friend 3
-                </h5>
-            </div>
+            </br>
             <h3>Requests</h3>
-            <div class = "friend">
-                <h5>
-                    Person 1 <a href="#" class="btn btn-primary"> Accept</a>
-                </h5>
-            </div>
-            <div class = "friend">
-                <h5>
-                    Person 2 <a href="#" class="btn btn-primary"> Accept</a>
-                </h5>
-            </div>
-            <div class = "friend">
-                <h5>
-                    Person 3 <a href="#" class="btn btn-primary"> Accept</a>
-                </h5>
+            <div id = "requestList">
+
             </div>
         </section>
     </section>
@@ -87,5 +67,6 @@
         <p>Made by Carter Norton and Zachary Everton <a class="text-reset" href="https://github.com/carternorton11/startup">Github</a></p>
     </div>
 </footer>
+<script src = "profile.js"></script>
 </body>
 </html>
