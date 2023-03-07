@@ -264,3 +264,147 @@ someFunction(regularInput).then(successReturn(), failureReturn()) </br>
   
   </br>
   await is a lot neater and looks nicer but you do need to remember to put either at the top level or within a function that has async in its definition. To use Async/await in a function, put "async" before the function name when declaring it (ie async function test(){}). Then within the function, whenever you do something that returns a promise, just say "await" before.
+
+  ```Questions covered in midterm review
+
+What does <div> do in HTML?
+Creates a division element.
+<b> tag stands for bring attention
+html	The page container
+head	Header information
+title	Title of the page
+meta	Metadata for the page such as character set or viewport settings
+script	JavaScript reference. Either a external reference, or inline
+include	External content reference
+body	The entire content body of the page
+header	Header of the main content
+footer	Footer of the main content
+nav	Navigational inputs
+main	Main content of the page
+section	A section of the main content
+aside	Aside content from the main content
+div	A block division of content
+span	An inline span of content
+h<1-9>	Text heading. From h1, the highest level, down to h9, the lowest level
+p	A paragraph of text
+b	Bring attention
+table	Table
+tr	Table row
+th	Table header
+td	Table data
+ol,ul	Ordered or unordered list
+li	List item
+a	Anchor the text to a hyperlink
+img	Graphical image reference
+dialog	Interactive component such as a confirmation
+form	A collection of user input
+input	User input field
+audio	Audio content
+video	Video content
+svg	Scalable vector graphic content
+iframe	Inline frame of another HTML page
+
+To point to another DNS record, you should use the following record type:
+CNAME - alias record, points to another A record
+“A” record is for an ip address
+Domain names are broken up into a root domain, with one or more possible subdomain prefixes. The root domain is represented by a secondary level domain and a top level domain. The top level domain (TLD) represent things like com, edu, or click. So a root domain would look something like byu.edu, google.com, or cs260.click. The possible list of TLDs is controlled by ICANN, one of the governing boards of the internet.
+
+You CAN use CSS to load fonts from google
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+Question using set.timeout, then, catch.
+setTimeout function places a timer to execute before executing the content, but executes following lines while waiting.
+.next executed asynchronously.
+Blocks of code outside/after the promise get executed before the promise if the promise is waiting for an async
+Inside promise functions, say “resolve()” or “reject()” instead of return. This will determine what other functions do with it.
+Valid JSON format:
+Key value pair, has to be double quotes for key, value cannot be undefined
+CSS formatting:
+Element name.class
+Valid ways to call javascript:
+<script>content to execute</script>
+Regex: /A/i  i at the end means case-insensitive. | is the or thing 
+array.filter(fn) returns only elements that return true look up regex
+Regex modifiers:
+g	Perform a global match (find all matches rather than stopping after the first match)
+i	Perform case-insensitive matching
+m	Perform multiline matching
+Regex symbols:
+[abc]	Find any character between the brackets
+[^abc]	Find any character NOT between the brackets
+[0-9]	Find any character between the brackets (any digit)
+[^0-9]	Find any character NOT between the brackets (any non-digit)
+(x|y)	Find any of the alternatives specified
+.	Find a single character, except newline or line terminator
+\w	Find a word character
+\W	Find a non-word character
+\d	Find a digit
+\D	Find a non-digit character
+\s	Find a whitespace character
+\S	Find a non-whitespace character
+\b	Find a match at the beginning/end of a word, beginning like this: \bHI, end like this: HI\b
+\B	Find a match, but not at the beginning/end of a word
+\0	Find a NULL character
+\n	Find a new line character
+\f	Find a form feed character
+\r	Find a carriage return character
+\t	Find a tab character
+\v	Find a vertical tab character
+\xxx	Find the character specified by an octal number xxx
+\xdd	Find the character specified by a hexadecimal number dd
+\udddd	Find the Unicode character specified by a hexadecimal number dddd
+n+	Matches any string that contains at least one n
+n*	Matches any string that contains zero or more occurrences of n
+n?	Matches any string that contains zero or one occurrences of n
+n{X}	Matches any string that contains a sequence of X n's
+n{X,Y}	Matches any string that contains a sequence of X to Y n's
+n{X,}	Matches any string that contains a sequence of at least X n's
+n$	Matches any string with n at the end of it
+^n	Matches any string with n at the beginning of it
+?=n	Matches any string that is followed by a specific string n
+?!n	Matches any string that is not followed by a specific string n
+
+Valid ways to declare functions:
+Function f(x){}
+Const f = function (x){}
+Const f = (x)=>{}
+CSS padding: Puts space around the content
+(Pals before marriage) padding, border, margin
+(Peanut Butter Mayonnaise)
+CSS box model: Margin border padding content
+Js Reduce:
+Look at the JS array functions!
+HTML tag for unordered list: <ul>
+Javascript addqueryselector returns an iterator that points to the FIRST one. Doesn’t select all unless you explicitly grab all
+Hyperlink in HTML: <a href=’link’>x</a>
+Javascript .map function
+push	Add an item to the end of the array	a.push(4)
+pop	Remove an item from the end of the array	x = a.pop
+slice	Return a sub-array	a.slice(1,-1)
+sort	Run a function sort an array in place	a.sort((a,b) => b-a)
+values	Creates an iterator for use with a for of loop	for (i of a.values()) {...}
+find	Find the first item satisfied by a test function	a.find(i => i < 2)
+forEach	Run a function on each array item	a.forEach(console.log)
+reduce	Run a function to reduce each array item to a single item	a.reduce((a, c) => a + c)
+map	Run a function to map an array to a new array	a.map(i => i+i)
+filter	Run a function to remove items	a.filter(i => i%2)
+every	Run a function to test if all items match	a.every(i => i < 3)
+some	Run a function to test if any items match	a.some(i => 1 < 1)
+&	&amp;
+<	&lt;
+>	&gt;
+"	&quot;
+'	&apos;
+😀	&#128512;
+Are html shortcuts.
+Name the main html file index.html
+
+Await will cause the interpreter to wait
+ Try catch await functions. Await pauses the execution until the promise is delivered
+What does the DOM textContent property do?
+Sets the child text for an element
+What is a DNS Subdomain?
+Flex-direction: column-reverse puts the elements from bottom to top
+Arrow functions can take a single variable name y instead of ()
+Const f = y => ++y; is valid
+Chmod permissions codes
+  ```
