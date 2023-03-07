@@ -119,11 +119,12 @@ flex: row is all content in one row, column is all content in one column <br>
 'Form' is container for input, that can be used to submit information <br>
 Input can be categorized into various forms (radio, url, password), each delineated by the `type` attribute
 Handling Input <br>
-	<form> input container
-	<fieldset> labeled grouping
-	<input> multiple types of input 
-	<select> selection dropdown 
-	<meter> display value with a known range
+	<form> input container <br>
+	<fieldset> labeled grouping <br>
+	<input> multiple types of input <br>
+	<select> selection dropdown <br>
+	<meter> display value with a known range <br>
+	
 #### Media
 Media tags all take an absolute or relative URL as an attribute <br>
 `SVG` and `Canvas` allow for creation of graphics inline <br>
@@ -147,12 +148,12 @@ meta tag: ensures page will not be scaled <br>
 float: allows an object to float around inline objects <br>
 @media (orientation: portrait) allow <br>
 CSS Selectors <br>
-	body section - any section that is a descendant of a body
-	section > p - any p that is a direct child of a section
-	p ~ div - any p that has a div sibling 
+	body section - any section that is a descendant of a body <br>
+	section > p - any p that is a direct child of a section <br>
+	p ~ div - any p that has a div sibling <br>
 	p + div - any p that has an adjacent div sibling <br>
 MDN Units <br>
-  px: pixels, pt: points, em: multiplier of letter m in parents font, rem: multiplier of letter m in root, vw: % of viewpoint width, vh: % of view height 
+  px: pixels, pt: points, em: multiplier of letter m in parents font, rem: multiplier of letter m in root, vw: % of viewpoint width, vh: % of view height <br> 
   
 
 ### JavaScript
