@@ -1,18 +1,19 @@
-
-routes = {};
 class Route{
-    constructor(name,area,aspect,approach,vert){
+    constructor(name,area,aspect,approach,vert,id=(Math.round(Math.random() * 10000)).toString()){
         this.name = name;
         this.area = area;
         this.aspect = aspect;
         this.approach = approach;
         this.vert = vert;
-        this.id = (Math.round(Math.random() * 10000)).toString();
-
+        this.id = id;
         routes[this.id] = this;
     }
 
-    getHTML(){
+    getHTML(hide=false){
+        let show = " show";
+        if(hide){
+            show = "";
+        }
         const newRoute = document.createElement('div');
         newRoute.setAttribute("class", "accordion-item");
 
@@ -23,7 +24,7 @@ class Route{
                     ${this.name}
                 </button>
             </h2>
-            <div id="collapse${this.id}" class="accordion-collapse collapse show" aria-labelledby="heading${this.id}" data-bs-parent="#accordionExample">
+            <div id="collapse${this.id}" class="accordion-collapse collapse${show}" aria-labelledby="heading${this.id}" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <div class="table-responsive">
                         <table class = "table">
@@ -145,8 +146,28 @@ function saveEdit(id){
     route.name = headingButton.value;
 
     routes[id] = route;
-
+    routesJSON = JSON.stringify(routes);
+    localStorage.setItem("routes", routesJSON);
     cancelEdit(id);
 
 }
+
+routes = {};
+
+if (localStorage.getItem("routes") !== null){
+   routesJSON = localStorage.getItem("routes");
+   var jroutes = JSON.parse(routesJSON);
+
+   const accord = document.getElementById("accordionExample");
+
+   routeIDs = Object.keys(jroutes);
+
+   for(const id of routeIDs){
+      console.log(jroutes[id]);
+      let jroute = jroutes[id];
+      routes[id] = new Route(jroute.name, jroute.area, jroute.aspect, jroute.approach,jroute.id);
+      accord.appendChild(routes[id].getHTML(true));
+   }
+}
+
 
