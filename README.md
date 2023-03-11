@@ -327,7 +327,9 @@ You can access attributes and children of an object using "." Any attributes tha
 <details>
 <summary>Midterm 1 review</summary>
 <br>
-  ```Questions covered in midterm review
+	
+```
+Questions covered in midterm review
 
 What does <div> do in HTML?
 Creates a division element.
