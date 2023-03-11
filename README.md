@@ -312,16 +312,17 @@ someFunction(regularInput).then(successReturn(), failureReturn()) </br>
   </br>
   await is a lot neater and looks nicer but you do need to remember to put either at the top level or within a function that has async in its definition. To use Async/await in a function, put "async" before the function name when declaring it (ie async function test(){}). Then within the function, whenever you do something that returns a promise, just say "await" before.
 
-####Simon Javascript notes
+#### Simon Javascript notes
 Use `localStorage.setItem(key, item)` to store something in a way that isn't lost when the page refreshes. </br>
 Use localStorage.getItem(key) to retrieve from localStorage. ?? opera
 Use window.location.href to change the html page being displayed. </br>
 ?? returns the value on the left hand side if its value is not null or undefined, and returns the value on the right hand side if lefthand side is null or undefined. Great for setting default values for when a value you are looking for isn't in localStorage yet.
 
-####Startup Javascript notes
+#### Startup Javascript notes
 `<input>`'s value attribute controls both the originally displayed text and whatever text is inside when you want to call a function.</br>
 setInnerHTML might be less secure in some ways but it sure is easier to use. </br>
-JSON can only store data, not functions. If you store a class in JSON notation, you will have to rebuild it with a constructor if you want to be able to use its functions again.
+JSON can only store data, not functions. If you store a class in JSON notation, you will have to rebuild it with a constructor if you want to be able to use its functions again. </br>
+You can access attributes and children of an object using "." Any attributes that can be set in html or css can also be modified this way
 
   ```Questions covered in midterm review
 
