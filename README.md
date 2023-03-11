@@ -324,6 +324,9 @@ setInnerHTML might be less secure in some ways but it sure is easier to use. </b
 JSON can only store data, not functions. If you store a class in JSON notation, you will have to rebuild it with a constructor if you want to be able to use its functions again. </br>
 You can access attributes and children of an object using "." Any attributes that can be set in html or css can also be modified this way
 
+<details>
+<summary>Midterm 1 review</summary>
+<br>
   ```Questions covered in midterm review
 
 What does <div> do in HTML?
@@ -467,3 +470,4 @@ Arrow functions can take a single variable name y instead of ()
 Const f = y => ++y; is valid
 Chmod permissions codes
   ```
+</details>
