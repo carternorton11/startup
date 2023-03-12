@@ -473,3 +473,18 @@ Const f = y => ++y; is valid
 Chmod permissions codes
   ```
 </details>
+
+
+#### URL
+Aka Uniform Resource Locator, helps locate a web resource. This can be a web page, font, inmage, video, database, or JSON or etc.<br>
+Url syntax:
+```
+<scheme>://<domain name>:<port>/<path>?<parameters>#<anchor>
+```
+Scheme: the protocol used to ask for the recourse, like http or https<br>
+Domain name: domain name that owns the resource<br>
+Port: which numbered network port is used to connect to the domain's sserver. For example, port 80 is used for HTTP and 443 for HTTPS </br>
+Path: path to the resource within the domwain.</br>
+Parameters: usually a list of key-value pairs containing additional qualifiers. Can also be called the query string</br>
+Anchor: points to a sub-location in the resource, like a specific part of the page or point in a video</br>
+URI's are uniform resource identifiers. More general version, can refer to either a URL or a URN. URN is a name that doesn't specify a location (Uniform resource name) </br>
