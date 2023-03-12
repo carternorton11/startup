@@ -509,3 +509,24 @@ Common port numbes:
 ##### Caddy and ports
 Our webservers use mainly port 22 (SSH), 80 and 443. Caddy listens for requests on 80 and 443 and redirects requests on port 80 to port 443. If the request is for a static file, it returns the file. If it recognizes the request as a request for a gateway service, caddy uses a service port. Our websites user port 3000 for our simon and port 4000 for our startup. each service needs a differnt specified port.
 
+#### HTTP
+"How the web talks". Hypertext transfer protocol.</br>
+When a web browser and a web server talk they exchange http requests and responses. Curl is a console tool that helps you send out and monitor http requests
+</br></br>
+General HTTP request format:
+```
+<verb> <url path, parameters, anchor> <version>
+[<header key: value>]*
+[
+
+  <body>
+]
+```
+The body is optional, and separated from the header information by two newlines </br>
+Example:
+```
+GET /hypertext/WWW/Helping.html HTTP/1.1
+Host: info.cern.ch
+Accept: text/html
+```
+No body in this one.
