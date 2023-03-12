@@ -488,3 +488,24 @@ Path: path to the resource within the domwain.</br>
 Parameters: usually a list of key-value pairs containing additional qualifiers. Can also be called the query string</br>
 Anchor: points to a sub-location in the resource, like a specific part of the page or point in a video</br>
 URI's are uniform resource identifiers. More general version, can refer to either a URL or a URN. URN is a name that doesn't specify a location (Uniform resource name) </br>
+
+#### Ports
+Connecting to a device on the internet requres both an IP address and a numbered port. Port numbers allow a single device to support multiple protocols. The ports may be exposed externally or just used internally. Different ports are often given different levels of access.<br>
+Port numbers for standard protocols range from 0 to 1023. 1024 to 49151 represent ports assigned to requesting entities. Ports from 4952 to 65535 are considered dynamic. </br>
+Common port numbes:
+| Port | Protocol                                                                                           |
+| ---- | -------------------------------------------------------------------------------------------------- |
+| 20   | File Transfer Protocol (FTP) for data transfer                                                     |
+| 22   | Secure Shell (SSH) for connecting to remote devices                                                |
+| 25   | Simple Mail Transfer Protocol (SMTP) for sending email                                             |
+| 53   | Domain Name System (DNS) for looking up IP addresses                                               |
+| 80   | Hypertext Transfer Protocol (HTTP) for web requests                                                |
+| 110  | Post Office Protocol (POP3) for retrieving email                                                   |
+| 123  | Network Time Protocol (NTP) for managing time                                                      |
+| 161  | Simple Network Management Protocol (SNMP) for managing network devices such as routers or printers |
+| 194  | Internet Relay Chat (IRC) for chatting                                                             |
+| 443  | HTTP Secure (HTTPS) for secure web requests                                                        |
+
+##### Caddy and ports
+Our webservers use mainly port 22 (SSH), 80 and 443. Caddy listens for requests on 80 and 443 and redirects requests on port 80 to port 443. If the request is for a static file, it returns the file. If it recognizes the request as a request for a gateway service, caddy uses a service port. Our websites user port 3000 for our simon and port 4000 for our startup. each service needs a differnt specified port.
+
