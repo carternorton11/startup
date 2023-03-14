@@ -566,3 +566,6 @@ Host: info.cern.ch
 Accept: text/html
 ```
 No body in this one.
+
+#### Fetch
+fetch(url) an be used to return a json from the URL. It automatically generates an HTTP request for the user. Great to interface with API's
