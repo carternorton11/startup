@@ -256,6 +256,42 @@ GraphQL
 1. Add `require('<package name here>')` to your JavaScript code
 1. Run your code with `node main.js`
 
+#### Process Manager 2
+PM2 is able to interfact with Daemons, or programs that are continually running (like our site)
+
+#### Playwright and Browser Stack
+PW: An automated browser tester for programmers, basically unit tests <br>
+`npm init playwright@latest` <br>
+Example use:
+`const { chromium } = require('playwright');
+
+(async () => {
+  const browser = await chromium.launch();
+  const page = await browser.newPage();
+  
+  await expect(page).toHaveText('some text');
+  
+  await browser.close();
+})();
+`
+BrowserStack: allows you to test a function on a real browser <br>
+
+#### Endpoint Testing and Jest
+'npm install jest -D `
+Add this to the package.json file:
+` "scripts": {
+  "test": "jest"
+},
+`
+create a test file with the .test.js ending <br>
+
+
+
+
+
+
+
+
 ## Zach Notes
 
 I was informed that we should both be keeping track of "things we learned" in the README. So this space is for the stuff I learn starting now. Notes from before are in my startup repository (deprecated).
